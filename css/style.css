@@ -1,0 +1,101 @@
+@import "reset.css";
+
+.header{
+	background-color: #5300C8;
+	height: 15vh;
+}
+
+.tituloHeader{
+	font-size: 25px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.items{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.corpoPrincipal{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	background-color: #FFFFFF;
+}
+
+.titulosProdutos{
+	font-weight: bold;
+	font-family: "Arial",sans-serif;
+	font-size: 25px;
+}
+
+.produtosCadastrados{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.produtos{
+	background-color: #5300C8;
+	width: 15vw;
+	height: 20vh;
+}
+
+.produtos img{
+	width: 10vw;
+	height: 15vh;
+}
+
+.author{
+	text-align: center;
+	font-size: 10px;
+	color: #FFFFFF;
+	font-family: "Arial",sans-serif;
+}
+
+.formulario{
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	align-items: center;
+}
+
+.button{
+	display: flex;
+	gap: 1.5rem;
+}
+
+.guardar{
+	background-color: #03318C;
+	color: #FFFFFF;
+	width: 10em;
+	height: 3em;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.limpar{
+	background-color: #FFFFFF;
+	color: #03318C;
+	width: 10em;
+	height: 3em;
+	border-radius: 10px;
+	padding: 10px;
+	border: 2px solid #03318C;
+}
+
+.formulario input{
+	border: 2px solid #03318C;
+	border-radius: 20px;
+	width: 20vw;
+	height: 6vh;
+}
+
+.formulario input::-webkit-input-placeholder{
+	color: #03318C;
+}
+
+
